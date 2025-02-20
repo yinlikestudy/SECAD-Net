@@ -1,0 +1,9 @@
+#忽略当前文件夹下的data目录
+data/
+exo_log/
+
+*.pyc
+#忽略模型的权重
+*.pth
+events.*
+#忽略
