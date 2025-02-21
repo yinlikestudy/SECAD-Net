@@ -8,6 +8,8 @@ from utils.workspace import load_experiment_specifications
 from dataset import dataloader
 from trainer import TrainerAE
 
+# 设定可见的 GPU
+os.environ["CUDA_VISIBLE_DEVICES"] = "4,5,6"	
 
 def main(args):
     # Set random seed
@@ -74,3 +76,5 @@ if __name__ == "__main__":
 	os.environ["CUDA_VISIBLE_DEVICES"] = "%d"%int(args.gpu)
 
 	main(args)
+
+	# print("test")

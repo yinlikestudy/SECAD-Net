@@ -4,5 +4,6 @@ nvcc -V
 
 export PATH=/usr/local/cuda-10.2/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64:$LD_LIBRARY_PATH
-
+# eval "$(conda shell.bash hook)"
+# conda activate secad
 nvcc -V

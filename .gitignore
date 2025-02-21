@@ -7,3 +7,6 @@ exo_log/
 *.pth
 events.*
 #忽略
+
+*.log 
+*.json
