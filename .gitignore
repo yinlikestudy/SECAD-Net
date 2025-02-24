@@ -10,3 +10,7 @@ events.*
 
 *.log 
 *.json
+
+#忽略重建以后的.obj文件
+*.obj
+*.ply

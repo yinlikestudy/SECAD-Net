@@ -22,7 +22,7 @@ def main(args):
  
 	if args.data_subset is None:
 		print('Running the complete data set sequentially.')
-		shape_indexes = list(range(int(args.start), int(args.end)))
+		shape_indexes = list(range(int(args.start_index), int(args.end_index)))
 	else:
 		print('Running on the specified data subset.')
 		shape_indexes = []
@@ -99,7 +99,7 @@ if __name__ == "__main__":
 	arg_parser.add_argument(
 		"--epoches",
 		dest="epoches",
-		default=50,
+		default=300,
 	)
 	arg_parser.add_argument(
 		"--gpu",
