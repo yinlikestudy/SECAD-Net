@@ -64,6 +64,7 @@ class VoxelSamples(torch.utils.data.Dataset):
 
 		self.data_voxels = data_voxels.squeeze(-1).unsqueeze(1)
 		self.data_points = torch.from_numpy(data_dict['points'][:]).float()
+		#线性投影到 -0.5 和 0.5之间 
 		self.data_points[:, :, :3] = (self.data_points[:, :, :3] + 0.5)/64-0.5
 		data_dict.close()
 			

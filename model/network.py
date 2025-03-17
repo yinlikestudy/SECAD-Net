@@ -113,6 +113,7 @@ class Generator(nn.Module):
   
 		box_ext = sdfExtrusion(sdfs_2d, boxes[..., 7], transformed_points).squeeze(-1)
 		primitive_sdf = box_ext
+		#
 		primitive_occupancies = torch.sigmoid(-1*primitive_sdf*self.sharpness)
 
 		with torch.no_grad():

@@ -14,10 +14,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "4,5,6"
 def main(args):
     # Set random seed
 	init_seeds()
- 
   	# Create experiment directory path
 	experiment_directory = os.path.join('./exp_log', args.experiment_directory)
- 
  	# Load experiment specifications
 	specs = load_experiment_specifications(experiment_directory)
 
@@ -56,6 +54,7 @@ def main(args):
 
 
 if __name__ == "__main__":
+	#create params json dict
 	arg_parser = argparse.ArgumentParser()
 	arg_parser.add_argument(
 		"--experiment",

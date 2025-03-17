@@ -6,13 +6,13 @@
 
     "eval_namelist_path": "./ABC/ABC_list.txt",
     "pred_meshs_folder_ori": "../exp_log/ABCfinet/Reconstructions/MC",
-    "pred_meshs_folder_to": "./ABC/ABC_pred_mesh/",
+    "pred_meshs_folder_to": "./ABCfinet/ABC_pred_mesh/",
 
-    "pred_points_folder": "./ABC/ABC_pred_point/",
-    "pred_edge_points_folder": "./ABC/ABC_pred_edge_point/",
-    "ground_truth_points_folder": "./ABC/ABC_GT_points/",
-    "ground_truth_edge_points_folder": "./ABC/ABC_GT_edge_points/",
-    "result_folder": "./ABC/eval_results",
-    "result_edge_folder": "./ABC/eval_edge_results"
+    "pred_points_folder": "./ABCfinet/ABC_pred_point/",
+    "pred_edge_points_folder": "./ABCfinet/ABC_pred_edge_point/",
+    "ground_truth_points_folder": "./ABCfinet/ABC_GT_points/",
+    "ground_truth_edge_points_folder": "./ABCfinet/ABC_GT_edge_points/",
+    "result_folder": "./ABCfinet/eval_results",
+    "result_edge_folder": "./ABCfinet/eval_edge_results"
 }
   

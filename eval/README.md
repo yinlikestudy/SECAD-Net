@@ -11,8 +11,8 @@ $ python fine-tuning.py -e ABC -g 0 -c best --subset ./ABC/ABC_list.txt
 $ python test.py -e ABC -g 0 -c best --subset <path_to_your_filename_list>
 ```
 
-nohup python fine-tuning.py -e ABCfinet -g 5 -c best --subset /home/jiaxing/jiaxing/SECAD-Net/eval/ABC/ABC_list.txt >> fine-tuning.log 2>&1  &
-nohup python test.py -e ABCfinet -g 5 -c best --subset /home/jiaxing/jiaxing/SECAD-Net/eval/ABC/ABC_list.txt > test.log 2>&1 &
+nohup python fine-tuning.py -e [ABCfinet] -g 5 -c best --subset /home/jiaxing/jiaxing/SECAD-Net/eval/ABC/ABC_list.txt >> [fine-tuning.log] 2>&1  &
+nohup python test.py -e [ABCfinet] -g 5 -c best --subset /home/jiaxing/jiaxing/SECAD-Net/eval/ABC/ABC_list.txt >> test.log &
 
 After the initial steps, evaluate the results with the provided script:
 
